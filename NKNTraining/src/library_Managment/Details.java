@@ -15,10 +15,17 @@ public class Details {
 		int MemberId = 1001;
 		char MembershipType = 'A'; //A=Adult, C=Child, S=Senior
 		//Borrowing Status
-		int NoOfDaysBookBorrowed =3;
+		int NoOfDaysBookBorrowed =7;
 		int noofextradays = NoOfDaysBookBorrowed-3;
+		int noofextradays1= 0;
 		float FinePerDay = 10.00F;
-		float TotalFine = (noofextradays*FinePerDay);
+		
+		int finalextradays = (noofextradays>=1)? noofextradays :noofextradays1;  
+		
+		float TotalFine = (finalextradays*FinePerDay);
+		
+		  
+		
 		
 	System.out.println("Library Managemnet System");
 	System.out.println("");
@@ -36,7 +43,10 @@ public class Details {
 	System.out.println("");
 	System.out.println("Borrowing Status:");
 	System.out.println("Number of days book borrowed         : "+ NoOfDaysBookBorrowed);
+	
+	if(noofextradays>=1)
 	System.out.println("Extra Number of days book borrowed   : "+ noofextradays);
+	
 	System.out.println("Fine per extra day                   : Rupees "+ FinePerDay);
 	System.out.println("Total fine to be Paid                : Rupees "+ TotalFine);
 	}
