@@ -5,7 +5,7 @@ public class OperatorAssignmentBilling {
 	public static void main(String[] args) {
 		
 		int noofItemsPurchased = 5; // Unary operator
-		int priceofeachitem = 1000; // Unary operator
+		int priceofeachitem = 1100; // Unary operator
 		int totalbillbeforediscount = (noofItemsPurchased*priceofeachitem); // Unary operator
 		boolean eligiblefordiscount = (totalbillbeforediscount>1000);// Unary operator 
 		int applydiscount =(totalbillbeforediscount- ((totalbillbeforediscount)/100)*10);
@@ -17,7 +17,7 @@ public class OperatorAssignmentBilling {
 		
 		int itemadded= ++noofItemsPurchased; // Unary operator : increment operator
 		
-		boolean eligibleforgift = (itemadded>5) && (totalbillafterdiscount>1000) ; // Logical operators
+		boolean eligibleforgift = (itemadded>=5) && (totalbillafterdiscount>1000) ; // Logical operators
 		//System.out.println("Free Gift    : "+itemadded);
 		System.out.println("Free Gift    : "+eligibleforgift);
 		
