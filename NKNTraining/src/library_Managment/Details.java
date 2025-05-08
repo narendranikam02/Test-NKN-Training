@@ -15,7 +15,7 @@ public class Details {
 		int MemberId = 1001;
 		char MembershipType = 'A'; //A=Adult, C=Child, S=Senior
 		//Borrowing Status
-		int NoOfDaysBookBorrowed =7;
+		int NoOfDaysBookBorrowed =6;
 		int noofextradays = NoOfDaysBookBorrowed-3;
 		int noofextradays1= 0;
 		float FinePerDay = 10.00F;
