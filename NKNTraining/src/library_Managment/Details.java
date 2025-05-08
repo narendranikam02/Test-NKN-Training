@@ -2,20 +2,6 @@ package library_Managment;
 
 public class Details {
 
-	public class BookDetails
-	{
-		String Titleofthebook = "Software Testing Principles and Practice";
-
-		String Authorname = "Shrinivasan Desikan";
-
-		int Yearofpublication = 2006;
-
-		float Priceofthebook = 500.10F;
-
-		String bookavailablity = "Yes";
-	
-		
-	}
 	public static void main(String[] args) 
 	{
 		//Book Details
@@ -29,9 +15,10 @@ public class Details {
 		int MemberId = 1001;
 		char MembershipType = 'A'; //A=Adult, C=Child, S=Senior
 		//Borrowing Status
-		int NoOfDaysBookBorrowed = 5;
+		int NoOfDaysBookBorrowed =3;
+		int noofextradays = NoOfDaysBookBorrowed-3;
 		float FinePerDay = 10.00F;
-		float TotalFine = (NoOfDaysBookBorrowed*FinePerDay);
+		float TotalFine = (noofextradays*FinePerDay);
 		
 	System.out.println("Library Managemnet System");
 	System.out.println("");
@@ -48,9 +35,10 @@ public class Details {
 	System.out.println("Type of membership   : "+ MembershipType);
 	System.out.println("");
 	System.out.println("Borrowing Status:");
-	System.out.println("Number of days book borrowed   : "+ NoOfDaysBookBorrowed);
-	System.out.println("Fine per extra day             : Rupees "+ FinePerDay);
-	System.out.println("Total fine to be Paid          : Rupees "+ TotalFine);
+	System.out.println("Number of days book borrowed         : "+ NoOfDaysBookBorrowed);
+	System.out.println("Extra Number of days book borrowed   : "+ noofextradays);
+	System.out.println("Fine per extra day                   : Rupees "+ FinePerDay);
+	System.out.println("Total fine to be Paid                : Rupees "+ TotalFine);
 	}
 
 }
