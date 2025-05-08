@@ -4,7 +4,9 @@ public class ifelseAssignment {
 
 	public static void main(String[] args) {
 		int studentAtime = 57;
-		int studentBtime = 57;
+		int studentBtime = 59;
+		System.out.println("Student A completed race is :"+studentAtime);
+		System.out.println("Student B completed race is :"+studentBtime);
 		if(studentAtime>studentBtime)
 		    {
 			 System .out.println("Student B is winner");
@@ -15,7 +17,7 @@ public class ifelseAssignment {
 			}
 			else
 			{
-			 System .out.println("Student A is winner");
+			 System .out.println("Student A is A *****WINNER****");
 			}		
 		}
 
