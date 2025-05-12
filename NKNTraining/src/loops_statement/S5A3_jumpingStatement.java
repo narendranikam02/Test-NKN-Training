@@ -33,6 +33,7 @@ If the player skips level 3 for some reason (maybe it's locked or under maintena
     	 System.out.println("Level "+j); 
     	
      }
+	 System.out.println("Level 3 Skipped");
      System.out.println("Game Stopped");
 	}
 	
