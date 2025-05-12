@@ -15,12 +15,13 @@ This for loop runs 5 times, representing each minute of the wash cycle.
 		{
 				System.out.println("washing minute "+i);
 				i++;
-				if(i==5)
+				if(i==6)
 				{
-					System.out.println("washing completed ");
+					
 					break;
 				}
 		}
+		System.out.println("washing completed ");
 
 	}
 
