@@ -21,7 +21,7 @@ public class S6A1_findTheLargestNumber {
 		
 		System.out.println("");
 		System.out.println("The Largest sales day : "+" "+Higestsaleday);
-		System.out.println("Amount :"+largno);
+		System.out.println("Amount "+largno);
 		}
 		
 	}	
