@@ -12,9 +12,9 @@ public class S6A2_2DArray2_objectarray {
 		    	 
 		      };
 		
-		 for(int row1=0;row1<=studentmarks.length-1;row1++)
+		 for(int row1=0;row1<=studentmarks.length-1;row1++)//row
 		 {
-			 for(int col1=0;col1<=studentmarks[row1].length-1;col1++)
+			 for(int col1=0;col1<=studentmarks[row1].length-1;col1++)//column
 			 {
 				 
 				 System.out.print(studentmarks[row1][col1]+" ");
@@ -35,6 +35,7 @@ public class S6A2_2DArray2_objectarray {
 			  sum=sum+totalsum;
 			 }
 			 System.out.println("Total Marks of "+studentmarks[r1][0]+"= "+sum);
+			 sum=0; //making sum to zero again to get next total marks
 	}
 
 }
