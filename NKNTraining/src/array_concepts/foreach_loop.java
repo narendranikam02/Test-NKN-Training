@@ -10,14 +10,28 @@ public class foreach_loop {
 			}
 		 */
 		
-		int a[]= {11,22,33,44,55};
+		int narendra[][]= {
+				{1,11},
+				{2,22},
+				{3,33},
+				{4,44},
+				{5,55},
+				{7,77},
+				{7,73},
+				};
+		//int narendra =10;
+		for (int[] rowvariablename : narendra) {
+		    for (int columnvariablename : rowvariablename) {
+		        System.out.print(columnvariablename+", ");
+		        
+		    }
+		    System.out.println();
+		}
 		
-		for(int x:a) 
-		{
-			System.out.println(x);
-		}
-		}
-
+		
+		
+		
+	}
 	}
 
 

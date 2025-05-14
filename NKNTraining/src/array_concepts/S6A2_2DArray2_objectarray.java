@@ -26,6 +26,9 @@ public class S6A2_2DArray2_objectarray {
 		 
 		 int totalsum=0;
 		 int sum =0;
+		 
+		 
+		 
 		 for(int r1=1;r1<=studentmarks.length-1;r1++)
 		 {
 			 for(int c1=1;c1<=studentmarks[r1].length-1;c1++)
